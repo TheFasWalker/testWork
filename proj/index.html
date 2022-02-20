@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/fonts/OpenSans/stylesheet.css">
+    <link rel="stylesheet" href="public/css/normalize.css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>непонятный титул</title>
+</head>
+<body>
+    <div class="container">
+
+<header>
+    <div class="header">
+    <button class="header__menu_dextop btn-default" type="button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    <div class="header__logo">
+        <img src="public/images/logo_site-logo.svg" alt="">
+    </div>
+    <div class="header__help">
+        <button class="header__btn-help btn-default">
+            <svg class="help__icon" width="44" height="44" viewBox="0 0 44 44">
+                <g id="ic_help" transform="translate(-2 -2)">
+                  <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(6 6)" fill="none"  stroke-width="3">
+                    <circle cx="18" cy="18" r="18" stroke="none"/>
+                    <circle cx="18" cy="18" r="16.5" fill="none"/>
+                  </g>
+                  <path id="Path_1" data-name="Path 1" d="M17.112,17.374V16.6a2.892,2.892,0,0,1,.362-1.5,3.8,3.8,0,0,1,1.285-1.19,4.827,4.827,0,0,0,1.055-.833,1.262,1.262,0,0,0,.321-.851.684.684,0,0,0-.344-.6,1.629,1.629,0,0,0-.9-.222,7.048,7.048,0,0,0-3.2.969L14.441,9.906a9.37,9.37,0,0,1,4.707-1.285,5.069,5.069,0,0,1,3.168.887,2.889,2.889,0,0,1,1.15,2.417,3.448,3.448,0,0,1-.511,1.9,5.211,5.211,0,0,1-1.634,1.516,6.32,6.32,0,0,0-1.19.9,1.014,1.014,0,0,0-.24.674v.462Zm-.389,3.168a1.673,1.673,0,0,1,.484-1.285,2.017,2.017,0,0,1,1.426-.453,1.948,1.948,0,0,1,1.389.457,1.676,1.676,0,0,1,.484,1.281,1.63,1.63,0,0,1-.5,1.276,1.973,1.973,0,0,1-1.371.453,2.046,2.046,0,0,1-1.4-.448A1.619,1.619,0,0,1,16.722,20.542Z" transform="translate(4.659 9)" fill="#004685"/>
+                </g>
+              </svg>
+        </button>
+        <div class="help__container">
+            <span class="help__title">Тел. поддержки</span>
+            <a class="help__tel" href="tel:+78001234567" target="_blank">8 800 123-45-67</a>
+            <a class="help__link" href="#">Написать письмо</a>
+        </div>
+    </div>
+    <div class="header__menu">
+        <div class="menu__lk">
+            <div class="menu__title">
+                <span>Личный кабинет</span>
+            </div>
+            <button class="menu__btn btn-default menu__lk"  type="button">Вход в личный кабинет</button>
+        </div>
+        <div class="menu__howItWorks">
+            <div class="menu__title">
+                <span>Как это работает</span>
+            </div>
+            <button class="menu__btn btn-default menu__terms" type="button">Условия использования серивиса</button>
+            <button class="menu__btn btn-default menu__payment" type="button">Способ оплаты</button>
+            <button class="menu__btn btn-default menu__questions" type="button">Часто задаваемые вопросы</button>
+            <button class="menu__btn btn-default menu__support" type="button">Служба поддержки</button>
+        </div>   
+    </div>
+</div>    
+</header>
+<div class="hero">
+    <div class="hero__banner">
+        <h1 class="hero__title">Поиск начислений</h1>
+    </div>
+    <form class="hero__form" action="#" >
+        <input class="hero__input" type="text" placeholder="Введите данные для поиска">
+        <button class="hero__submit btn-default">Найти</button>
+    </form>
+    <div class="hero__subtitle">
+        <span>Чем больше параметров введено, тем полнее результаты поиска</span>
+    </div>
+</div>
+<div class="navigation-info">
+    <div class="navigation-info__container">
+    <div class="navigation-info__banner">
+        <h2 class="navigation-info__title">
+            Здесь можно оплатить
+        </h2>
+    </div>
+    <div class="navigation-info__links">
+        <div class="links__section">
+            <a href="#penalty" class="navigation-info__link">Штрафы ГИБДД</a>
+            <a href="#debts" class="navigation-info__link">Судебные задолжнности</a>
+            <a href="#dues" class="navigation-info__link">Налоги</a>
+        </div>
+
+        <div class="links__section">
+            <a href="#motley" class="navigation-info__link">Услуги Росреестра</a>
+            <span class="navigation-info__addition ">и другие устуги</span>
+        </div>
+
+    </div>
+</div>
+</div>
+<div class="section__container">
+    <div class="section fines" id="penalty">
+        <div class="section__text">
+            <div class="section__header">
+                <div class="section__banner">
+                    <h3 class="section__title">Штрафы ГИБДД</h3>
+                </div>
+                <div class="section__info">
+                    <p>Для поиска укажите номера водительского удостоверения и свидетельства о регистрации ТС или номер штрафа. </p>
+                    <p>Если у вас есть на руках постановление о штрафе, вы можете указать реквизиты самостоятельно.</p>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="section__banner-red">
+                    <h4 class="section__subtitle">
+                        ПЛАТИТЬ ВОВРЕМЯ — ДЕШЕВЛЕ!
+                    </h4>
+                </div>
+                <div class="section__additional-info">
+                    <p>В первые 20 дней после выдачи постановления штраф можно оплатить со скидкой 50%. Для своевременной оплаты штрафов настройте уведомления в Личном кабинете.</p>
+                </div>
+            </div>
+    
+        </div>
+        <picture class="section__picture">
+            <img class="picture__img " src="public/images/galary/pic_block1.png" alt="">
+        </picture>
+    </div>
+    <div class="section legal-debts" id="debts">
+        <picture class="section__picture">
+            <img class="picture__img " src="public/images/galary/pic_block2.jpg" alt="">
+        </picture> 
+        <div class="section__text">
+            <div class="section__header">
+                <div class="section__banner">
+                    <h3 class="section__title">Судебные задолжности</h3>
+                </div>
+                <div class="section__info">
+                    <p>Для поиска начислений в ГИС ГМП укажите документы: паспорт РФ, ИНН, СНИЛС или номер Исполнительного производства.</p>
+                    <p>Вы можете указать реквизиты платежа самостоятельно, заполнив форму.</p>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="section__banner-red">
+                    <h4 class="section__subtitle">
+                        удобно!
+                    </h4>
+                </div>
+                <div class="section__additional-info">
+                    <p>Судебные задолженности можно погасить как сразу, так и по частям, комфортными для вас платежами. Информацию о совершенных платежах сохраняйте в Личном кабинете.</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="section taxes" id="dues">
+        <div class="section__text">
+            <div class="section__header">
+                <div class="section__banner">
+                    <h3 class="section__title">Налоги</h3>
+                </div>
+                <div class="section__info">
+                    <p>Для поиска начислений по налогам в ГИС ГМП укажите ИНН или Индекс налогового документа, если у вас на руках есть квитанция.</p>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="section__banner-red">
+                    <h4 class="section__subtitle">
+                        важно!
+                    </h4>
+                </div>
+                <div class="section__additional-info">
+                    <p>Согласно законодательству РФ вы не можете оплачивать налоги за других физических лиц. Принимаются только платежи физических лиц.</p>
+                </div>
+            </div>
+    
+        </div>
+        <picture class="section__picture">
+            <img class="picture__img " src="public/images/galary/pic_block3.jpg" alt="">
+        </picture> 
+    </div>
+    <div class="section registry-services" id="motley">
+        <picture class="section__picture">
+            <img class="picture__img " src="public/images/galary/pic_block4.jpg" alt="">
+        </picture> 
+        <div class="section__text">
+            <div class="section__header">
+                <div class="section__banner">
+                    <h3 class="section__title">Услуги Росреестра</h3>
+                </div>
+                <div class="section__info">
+                    <p>В поисковой строке укажите Код платежа, который был отправлен вам на почтовый ящик, указанный при подаче запроса в Росреестре.</p>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="section__banner-red">
+                    <h4 class="section__subtitle">
+                        нет кода?
+                    </h4>
+                </div>
+                <div class="section__additional-info">
+                    <p>Если у вас ещё нет кода платежа, перейдите на сайт <a class="section__link" href="#" target="_blank">rosreestr.ru</a> и сформируйте запрос на оплату электронных услуг Росреестра.</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>
+<div class="work-with-us">
+    <div class="work-with-us__banner">
+        <h2 class="work-with-us__title"> С нами работают</h2>
+    </div>
+    <div class="work-with-us__partners">
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img class="logo__image" src="public/images/logos/logo_partner1.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Партнёр 1</span>
+            </div>
+        </div>
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img src="public/images/logos/logo_partner2.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Компания партнёр с длинным названием</span>
+            </div>
+        </div>
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img src="public/images/logos/logo_partner3.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Партнёр 3</span>
+            </div>
+        </div>
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img src="public/images/logos/logo_partner4.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Название партнёра 4</span>
+            </div>
+        </div>
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img src="public/images/logos/logo_partner5.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Компания-партнёр 5</span>
+            </div>
+        </div>
+        <div class="parnter">
+            <picture class="partner__logo">
+                <img src="public/images/logos/logo_partner6.jpg" alt="">
+            </picture>
+            <div class="partner__name">
+                <span>Партнёр 6 с длинным названием</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer>
+    <div class="footer">
+    <div class="footer__info">
+        <span>© 2012 – 2020 </span>
+        <span>ООО «Название компании»</span>
+    </div>
+    <div class="footer__security">
+        <img class="security-img" src="public/images/comodossl-trustlogo2.png" alt="sequre-img">
+        <a class="security__link" href="#"></a>
+    </div>
+</div>
+</footer>
+<div class="popUp-logIn__wrapper" id="login-popup">
+    <div class="popUp-logIn__contaner">
+        <button class="popUp-logIn__exit btn-default" type="button">
+            <svg class="exit__icon" width="24" height="24" viewBox="0 0 24 24">
+                <g id="ic_close" transform="translate(-6 -6)">
+                  <rect id="Rectangle_31" data-name="Rectangle 31" width="24" height="24" transform="translate(6 6)" fill="none"/>
+                  <path id="Union_3" data-name="Union 3" d="M-778.527,850.174l-9.241,9.241-1.732-1.733,9.241-9.241-9.187-9.187,1.732-1.733,9.188,9.188,9.241-9.241,1.732,1.733-9.241,9.241,9.294,9.294-1.732,1.733Z" transform="translate(796.5 -830.467)" />
+                </g>
+              </svg>
+              
+        </button>
+        <div class="popUp-logIn__content">
+            <form  class="popUp-logIn__form" action="#">
+                <div class="popUp-logIn__title">
+                    <h2>Введите логин и пароль<br>для входа в Личный кабинет</h2>
+                </div>
+                <input class="popUp-logIn__input"  type="text" name="UserLogin" placeholder="Логин">
+                <input class="popUp-logIn__input" type="password" name="UserPassword" placeholder="Пароль" >
+                <button class="popUp-logIn__submit btn-default" type="submit">Войти</button>
+            </form>
+            <button class="popUp-logIn__buttoms popUp-logIn__remember btn-default" type="button">Напомнить пароль</button>
+            <button class="popUp-logIn__buttoms popUp-logIn__registration btn-default" type="button">Регистрация</button>
+        </div>
+
+
+    </div>
+</div>
+</div>
+<script src="public/js/lib/jquery3-6-0.min.js"></script>
+<script src="public/js/script.js"></script>
+</body>
+</html>

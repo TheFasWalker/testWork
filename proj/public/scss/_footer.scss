@@ -1,0 +1,38 @@
+footer{
+width: 100%;
+background: #00468533;
+    // padding: 40px 52px 40px 32px;
+    padding: 32px 35px 35px 31px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__info{
+    display: flex;
+    flex-direction: column;
+    span{
+        font-size: 16px;
+        font-weight: 600;
+        font-style: normal;
+    }
+
+
+}
+.footer__security{
+    position: relative;
+    height: 52px;
+    width: 79px;
+}
+.security-img{
+    width: 100%;
+}
+.security__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}

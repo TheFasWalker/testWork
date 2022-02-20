@@ -1,0 +1,94 @@
+.popUp-logIn__wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.popUp-logIn__contaner{
+    background-color: #FFFFFF;
+    max-width: 400px;
+    display: flex;
+    flex-direction:column ;
+}
+.popUp-logIn__exit{
+    height: 48px;
+    width: 48px;
+    align-self: flex-end;
+}
+.exit__icon{
+    fill:#569ddc;
+    height: 24px;
+    width: 24px;
+}
+.popUp-logIn__content{
+ display: flex;
+ flex-direction: column;
+ padding: 0 40px 40px 40px;
+
+}
+.popUp-logIn__form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.popUp-logIn__title{
+    max-width: 267px;
+    margin-bottom: 32px;
+    h2{
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        letter-spacing: 0;
+        color: #000000;
+    }
+}
+.popUp-logIn__input{
+    border: 2px solid #00468533;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #00468533;
+    border-radius: 8px;
+    height: 60px;
+    margin-bottom: 16px;
+    padding-left: 24px;
+    color: #000000;
+    font-size: 16px;
+
+}
+.popUp-logIn__input::placeholder{
+    font-size: 16px;
+
+    color: #00000075;
+}
+.popUp-logIn__submit{
+    margin-top: 7px;
+    background: #D30531 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 60px;
+    width:100%
+}
+.popUp-logIn__submit:hover{
+    background:#E1133F
+}
+.popUp-logIn__buttoms{
+    color: #004685;
+    align-self: flex-start;
+    border-bottom: 1px dashed #004685;
+}
+.popUp-logIn__buttoms:hover{
+    color: #569ddc;
+    border-bottom: 1px dashed #569ddc;
+}
+.popUp-logIn__remember{
+    margin-bottom: 16px;
+}
