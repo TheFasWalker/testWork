@@ -1008,4 +1008,8 @@ footer {
   .section__header_mobile {
     display: block;
   }
+
+  .work-with-us__title {
+    font-size: 20px;
+  }
 }
