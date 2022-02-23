@@ -79,11 +79,6 @@ $(document).keydown(function(eventObject){
 	};
 });
 
-
-
-
-
-
 $('.navigation-info__link').on('click', function () {
     let href = $(this).attr('href');
     $('html, body').animate({
@@ -93,4 +88,10 @@ $('.navigation-info__link').on('click', function () {
         easing: "linear" // по умолчанию «swing»
     });
     return false;
+});
+
+$('.section-button_mobile').on('click',function(){
+    var clickedIndex = ($('.section-button_mobile').index(this));
+    $(this).toggleClass('section-button_mobile-active');
+    $('.section').eq(clickedIndex).toggle(300);
 });
